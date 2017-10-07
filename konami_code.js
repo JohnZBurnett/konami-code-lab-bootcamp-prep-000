@@ -6,14 +6,14 @@ function init() {
 
   let index = 0;
 
+  debugger;
+
 
   function onKeyDownHandler(e) {
 
     const key = parseInt(e.detail || e.which)
 
     for (let i = 0; i < code.length; i++) {
-
-      debugger;
 
       // check to see if the keypress matches the next part of the code
       if (key === code[index]) {
