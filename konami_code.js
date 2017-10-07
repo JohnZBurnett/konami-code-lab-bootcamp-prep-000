@@ -7,37 +7,35 @@ function init() {
 
   let index = 0;
 
+  document.body.addEventListener("keydown", function(e) ) {
 
- document.body.addEventListener("keydown", function(e) ) {
+  // get numerical value of key
+  const key = parseInt(e.detail || e.which)
 
-    const key = parseInt(e.detail || e.which)
+  
+  // compare keypress with current position in konami code
+  if (key === code[index]) {
 
-    for (let i = 0; i < code.length; i++) {
+    // if this is the end of the code, print the message
+    if (index === code.length - 1) {
 
-      // check to see if the keypress matches the next part of the code
-      if (key === code[index]) {
+      alert("Congratulations, Shinji!")
 
-        // if this is the last piece of the code, print a congratulatory message
-        if (index === code.length) {
-          window.alert("Congratulations, Shinji!")
+      index = 0; 
+    }
 
-        }
+    // if this is not the end of the code, increment
+    else {
+      index++;
+    }
 
-        else {
-          index++;
-        }
+    
+  } // end if 
 
-
-      } // end if for keypress
-
-      else {
-        index = 0;
-      }
-
-    } // end for loop
-
-
+  else {
+    index = 0; 
+  }
+  
   }
 
-
-} // end function
+}
