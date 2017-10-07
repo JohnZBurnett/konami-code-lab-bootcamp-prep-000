@@ -30,6 +30,7 @@ function init() {
 
   } // end if
 
+ // if it's not in the code, reset to 0 
   else {
     index = 0;
   }
