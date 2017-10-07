@@ -35,6 +35,6 @@ function init() {
     index = 0;
   }
 
-}) // end function 
+}) // end function
 
 }
