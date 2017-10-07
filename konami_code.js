@@ -6,7 +6,7 @@ function init() {
 
   let index = 0;
 
-  window.addEventListener("keydown", onKeyDownHandler(e) )
+  addEventListener("keydown", onKeyDownHandler(e) )
 
   function onKeyDownHandler(e) {
 
