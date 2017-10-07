@@ -12,7 +12,7 @@ function init() {
   // get numerical value of key
   const key = parseInt(e.detail || e.which)
 
-  
+
   // compare keypress with current position in konami code
   if (key === code[index]) {
 
@@ -21,7 +21,7 @@ function init() {
 
       alert("Congratulations, Shinji!")
 
-      index = 0; 
+      index = 0;
     }
 
     // if this is not the end of the code, increment
@@ -29,13 +29,13 @@ function init() {
       index++;
     }
 
-    
-  } // end if 
+
+  } // end if
 
   else {
-    index = 0; 
+    index = 0;
   }
-  
+
   }
 
 }
