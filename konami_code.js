@@ -8,7 +8,7 @@ function init() {
   let index = 0;
 
 
- document.addEventListener("keydown", function(e) ) {
+ document.body.addEventListener("keydown", function(e) ) {
 
     const key = parseInt(e.detail || e.which)
 
