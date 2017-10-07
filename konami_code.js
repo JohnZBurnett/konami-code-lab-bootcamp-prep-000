@@ -7,7 +7,6 @@ function init() {
 
   let index = 0;
 
-  debugger;
 
  document.addEventListener("keydown", function(e) ) {
 
@@ -39,5 +38,7 @@ function init() {
 
 
   }
+
+  {}
 
 } // end function
