@@ -5,7 +5,7 @@ function init() {
 
   let index = 0;
 
-  document.body.addEventListener("keydown", function(e) ) {
+  document.body.addEventListener("keydown", function(e) {
 
   // get numerical value of key
   const key = parseInt(e.detail || e.which)
@@ -30,11 +30,11 @@ function init() {
 
   } // end if
 
- // if it's not in the code, reset to 0 
+ // if it's not in the code, reset to 0
   else {
     index = 0;
   }
 
-  }
+}) // end function 
 
 }
