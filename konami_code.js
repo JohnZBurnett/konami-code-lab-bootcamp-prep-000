@@ -18,7 +18,7 @@ function init() {
 
         // if this is the last piece of the code, print a congratulatory message
         if (index === code.length - 1 ) {
-          alert("Congratulations, Shinji!")
+          window.alert("Congratulations, Shinji!")
 
         }
 
