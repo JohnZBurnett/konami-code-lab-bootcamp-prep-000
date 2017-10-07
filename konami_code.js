@@ -39,6 +39,6 @@ function init() {
 
   }
 
-  {}
+}
 
 } // end function
