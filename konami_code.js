@@ -13,6 +13,8 @@ function init() {
 
     for (let i = 0; i < code.length; i++) {
 
+      debugger; 
+
       // check to see if the keypress matches the next part of the code
       if (key === code[index]) {
 
