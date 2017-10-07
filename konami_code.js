@@ -6,6 +6,8 @@ function init() {
 
   let index = 0;
 
+  window.addEventListener("keydown", onkeyDownHandler() )
+
   function onKeyDownHandler(e) {
 
     const key = parseInt(e.detail || e.which)
