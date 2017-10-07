@@ -41,5 +41,3 @@ function init() {
   }
 
 } // end function
-
-
