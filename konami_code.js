@@ -39,6 +39,5 @@ function init() {
 
   }
 
-}
 
 } // end function
