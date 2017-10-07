@@ -19,7 +19,7 @@ function init() {
       if (key === code[index]) {
 
         // if this is the last piece of the code, print a congratulatory message
-        if (index === code.length - 1 ) {
+        if (index === code.length) {
           window.alert("Congratulations, Shinji!")
 
         }
